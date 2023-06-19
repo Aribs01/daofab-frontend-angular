@@ -1,0 +1,15 @@
+$navbarHeight: 3.75rem;
+
+.main {
+  background: #e3f6f5;
+  width: 100%;
+  min-height: 100vh;
+  transition: width 0.25s ease-in-out;
+
+  .main-content {
+    padding: 3rem 3rem;
+    min-height: calc(100vh - $navbarHeight);
+    max-height: calc(100vh - $navbarHeight);
+    overflow: auto;
+  }
+}

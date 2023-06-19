@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@use "./assets/styles" as *;
+
+html,
+body {
+  height: 100%;
+  outline: red;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  outline: red;
+}
+
+::-webkit-scrollbar {
+  width: 0.59375rem;
+  height: 0.59375rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5e6464;
+  border: 1.5px solid transparent;
+  background-clip: content-box;
+}
